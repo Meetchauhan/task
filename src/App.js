@@ -1,14 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Layout from "./Layout/Layout";
-import Footer from "./components/footer/Footer";
-// import Layout from "./Layout/Layout";
-import Header from "./components/header/Header";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
     <>
-      <Layout />
+      <ProfilePage />
     </>
   );
 }
